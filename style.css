@@ -1,0 +1,145 @@
+h1{
+    font-family: "League Spartan";
+   color: hsl(300, 43%, 22%);
+   font-size: 60px;
+}
+.p1{
+    font-family: "League Spartan";
+}
+body{
+    background-image:url(bg-pattern-top-desktop.svg);
+    background-image: url(bg-pattern-bottom-desktop.svg);
+}
+.d1{
+display: flex;
+flex-direction: row;
+background-color:  hsl(300, 24%, 96%);
+width: 400px;
+}
+.i1,.i2,.i3{
+    width: 15px;
+    height: 15px;
+    margin-top: 19px; 
+}
+.d2{
+    display: flex;
+flex-direction: row;
+background-color:  hsl(300, 24%, 96%);
+width: 400px;
+margin-top: 15px;
+margin-left: 30px;
+}
+.d3{
+    display: flex;
+flex-direction: row;
+background-color:  hsl(300, 24%, 96%);
+width:400px; 
+margin-top: 15px;
+margin-left: 70px;
+}
+.d1,.d2,.d3{
+    border-radius: 10px;
+}
+.container{
+    margin-top: -320px;
+    margin-left: 700px;
+}
+p{
+    font-family: "League Spartan";
+    font-size: 18px;
+}
+main{
+    padding-top: 10px;
+    padding-left: 20px;
+    width:900px;
+}
+.d4{
+    background-color: hsl(300, 43%, 22%);
+    width: 450px;
+    border-radius: 15px;
+}
+.i4,.i5,.i6{
+   border-radius: 50%;
+   width: 50px;
+}
+.d5{
+    background-color: hsl(300, 43%, 22%);
+    width: 450px;
+    height: 190px;
+    border-radius: 15px;
+    margin-left:460px;
+    margin-top:-150px;
+}
+.d6{
+    background-color: hsl(300, 43%, 22%);
+    width: 450px;
+    border-radius: 15px;
+    margin-left: 920px;
+    margin-top: -160px;
+}
+.i6{
+    margin-top: 20px;
+   margin-left: 20px;
+   width: 40px;
+   height:40px;
+}
+.i5,.i4{
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 40px;
+    height:40px;
+}
+.d7{
+  display:flex;
+  flex-direction: row;
+  width: 200px;
+  height: 70px;
+}
+.p8{
+    padding-left: 20px;
+    color:hsl(333, 80%, 67%);
+    line-height: 25px;
+}
+.p6{
+    padding-left: 20px;
+    color:hsl(333, 80%, 67%);
+    line-height: 25px;
+}
+.b2{
+    color: white;
+}
+.p9{
+    color: white;
+    padding-left: 40px;
+    padding-bottom: 00px;
+}
+.d8{
+    display:flex;
+    flex-direction: row;
+    width: 200px;
+    height: 70px;
+}
+.p7{
+    color: white;
+    padding-left: 40px;
+    padding-bottom: 00px;
+}
+.p5{
+    color: white;
+    padding-left: 40px;
+    padding-bottom: 30px;
+}
+.d9{
+    display:flex;
+    flex-direction: row;
+    width: 200px;
+    height: 70px;
+}
+.p4{
+    padding-left: 20px;
+    color:hsl(333, 80%, 67%);
+    line-height: 25px;
+}
+.b7{
+    color: white;
+}
