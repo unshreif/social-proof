@@ -1,48 +1,23 @@
 h1{
     font-family: "League Spartan";
    color: hsl(300, 43%, 22%);
-   font-size: 60px;
+   line-height: 90%;
 }
-.p1{
-    font-family: "League Spartan";
+#stars{
+background-color:  hsl(300, 24%, 96%);
+width: fit-content;
+
 }
-body{
-    background-image:url(bg-pattern-top-desktop.svg);
-    background-image: url(bg-pattern-bottom-desktop.svg);
+.text{
+    width: 820px;
 }
-.d1{
+.top{
 display: flex;
-flex-direction: row;
-background-color:  hsl(300, 24%, 96%);
-width: 400px;
-}
-.i1,.i2,.i3{
-    width: 15px;
-    height: 15px;
-    margin-top: 19px; 
-}
-.d2{
-    display: flex;
-flex-direction: row;
-background-color:  hsl(300, 24%, 96%);
-width: 400px;
-margin-top: 15px;
-margin-left: 30px;
-}
-.d3{
-    display: flex;
-flex-direction: row;
-background-color:  hsl(300, 24%, 96%);
-width:400px; 
-margin-top: 15px;
-margin-left: 70px;
-}
-.d1,.d2,.d3{
-    border-radius: 10px;
 }
 .container{
-    margin-top: -320px;
-    margin-left: 700px;
+    padding-top: 20px;
+    padding-left: 20px;
+    margin-right: -590px;
 }
 p{
     font-family: "League Spartan";
@@ -53,93 +28,77 @@ main{
     padding-left: 20px;
     width:900px;
 }
-.d4{
+#catlon{
     background-color: hsl(300, 43%, 22%);
     width: 450px;
-    border-radius: 15px;
 }
-.i4,.i5,.i6{
-   border-radius: 50%;
-   width: 50px;
-}
-.d5{
+#eren{
     background-color: hsl(300, 43%, 22%);
     width: 450px;
-    height: 190px;
-    border-radius: 15px;
-    margin-left:460px;
-    margin-top:-150px;
+    margin-left: 460px;
+    margin-top: -80px;
+    height: fit-content;
 }
-.d6{
+#anne{
     background-color: hsl(300, 43%, 22%);
     width: 450px;
-    border-radius: 15px;
     margin-left: 920px;
     margin-top: -160px;
 }
-.i6{
-    margin-top: 20px;
-   margin-left: 20px;
-   width: 40px;
-   height:40px;
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
 }
-.i5,.i4{
-    margin-top: 20px;
-    margin-left: 20px;
-    width: 40px;
-    height:40px;
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: none;
+  border-radius: 10px;
 }
-.d7{
-  display:flex;
-  flex-direction: row;
-  width: 200px;
-  height: 70px;
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: gray;
+  border-radius: 10px;
 }
-.p8{
-    padding-left: 20px;
-    color:hsl(333, 80%, 67%);
-    line-height: 25px;
+
+@media (max-width:440px) {
+body{
+    width: 360px;
 }
-.p6{
-    padding-left: 20px;
-    color:hsl(333, 80%, 67%);
-    line-height: 25px;
+    .top{
+    display: flex;
+    flex-direction: column;
 }
-.b2{
-    color: white;
+h1{
+    font-size: 10vw;
 }
-.p9{
-    color: white;
-    padding-left: 40px;
-    padding-bottom: 00px;
+#eren{
+    margin-left: 0px;
+    margin-top: 1.4vw;
 }
-.d8{
-    display:flex;
-    flex-direction: row;
-    width: 200px;
-    height: 70px;
+#anne{
+    margin-left: 0px;
+    margin-top: 1.4vw;
 }
-.p7{
-    color: white;
-    padding-left: 40px;
-    padding-bottom: 00px;
+h1{
+    width: 370px;
+    font-size: 10px;
 }
-.p5{
-    color: white;
-    padding-left: 40px;
-    padding-bottom: 30px;
+#text1{
+    width: 370px;
 }
-.d9{
-    display:flex;
-    flex-direction: row;
-    width: 200px;
-    height: 70px;
+#stars{
+    width:370px;
+    margin-left: -37px;
+    margin-top: 10px;
 }
-.p4{
-    padding-left: 20px;
-    color:hsl(333, 80%, 67%);
-    line-height: 25px;
+#catlon,#eren,#anne{
+    width: 350px;
 }
-.b7{
-    color: white;
+#art{
+padding-right: 3px;
+}
 }
