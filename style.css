@@ -9,6 +9,9 @@ width: fit-content;}
 body{
 width: fit-content;
 overflow-x: hidden;
+  display: flex;
+    flex-direction: column;
+    align-items: center;
 
 }
 
@@ -71,6 +74,8 @@ body{
     .top{
     display: flex;
     flex-direction: column;
+    margin-left: 15vw;
+    padding-left: 5vw;
 }
 h1{
     font-size: 10vw;
@@ -82,6 +87,9 @@ h1{
 #anne{
     margin-left: 0px;
     margin-top: 1.4vw;
+}
+#bottom{
+    margin-left: 20vw;
 }
 h1{
     width: 370px;
