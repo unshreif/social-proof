@@ -5,28 +5,27 @@ h1{
 }
 #stars{
 background-color:  hsl(300, 24%, 96%);
+width: fit-content;}
+body{
 width: fit-content;
 
 }
-.text{
-    width: 820px;
-}
+
 .top{
 display: flex;
 }
 .container{
-    padding-top: 20px;
-    padding-left: 20px;
-    margin-right: -590px;
+    padding-top: 1vw;
+    padding-left: 1vw;
+    margin-right: -29.5vw;
 }
 p{
     font-family: "League Spartan";
     font-size: 18px;
 }
 main{
-    padding-top: 10px;
-    padding-left: 20px;
-    width:900px;
+    padding-top: 0.5vw;
+    padding-left: 1vw;
 }
 #catlon{
     background-color: hsl(300, 43%, 22%);
@@ -88,15 +87,15 @@ h1{
     font-size: 10px;
 }
 #text1{
-    width: 370px;
+    width: 95vw;
 }
 #stars{
-    width:370px;
-    margin-left: -37px;
+    width:90.5vw;
+    margin-left: 0;
     margin-top: 10px;
 }
 #catlon,#eren,#anne{
-    width: 350px;
+    width: 90.5vw;
 }
 #art{
 padding-right: 3px;
