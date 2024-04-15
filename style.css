@@ -8,6 +8,7 @@ background-color:  hsl(300, 24%, 96%);
 width: fit-content;}
 body{
 width: fit-content;
+overflow-x: hidden;
 
 }
 
@@ -99,5 +100,10 @@ h1{
 }
 #art{
 padding-right: 3px;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 }
